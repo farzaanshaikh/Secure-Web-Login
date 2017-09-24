@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+  head
+    title Welcome
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='/stylesheets/style.css', rel='stylesheet')
+  body
+    .navbar.navbar-default(role='navigation')
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#') Project Name
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/') Home
+            li
+              a(href='/') Link
+            li
+              a(href='/') Link
+    .container
+      block content
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='javascripts/bootstrap.js')
