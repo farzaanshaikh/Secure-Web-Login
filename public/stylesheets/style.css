@@ -39,3 +39,23 @@ a {
   color: #FFFFF7;
   text-decoration: none ;
 }
+
+ul.success li {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  color: #0fbf21;
+  background-color: #113c00;
+  border-color: #1a3800;
+  list-style: none;
+}
+
+ul.error li {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  color: #c30052;
+  background-color: #66001f;
+  border-color: #470015;
+  list-style: none;
+}
