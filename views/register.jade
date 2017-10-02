@@ -7,7 +7,7 @@ block content
     if errors
       each error, i in errors
         li.alert.alert-danger #{error.msg}
-  form(method='post, action='/users/register, enctype='multipart/form-data')
+  form(method='post', action='/users/register', enctype='multipart/form-data')
     .form-group
       label Name
       input.form-control(name='name', type='text', placeholder='Full Name')
@@ -24,6 +24,6 @@ block content
       label Confirm Password
       input.form-control(name='password2', type='password', placeholder='Confirm Password')
     .form-group
-      label Profile Photo
+      label Profile Photo (Optional)
       input.form-control(name='profileimage', type='file')
     input.btn.btn-primary(name='submit', type='submit', value='Register')

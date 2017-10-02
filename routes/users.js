@@ -1,8 +1,7 @@
 var express = require('express');
-var router = express.Router();
-var bodyParser = require('body-parser')
 var multer = require('multer');
 var upload = multer({dest: './uploads'});
+var router = express();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -18,7 +17,7 @@ router.get('/login', function(req, res, next) {
 });
 
 router.post('/register', upload.single('profileimage'), function(req, res, next) {
-  console.log(req.body.name);
+  console.log(req.body.name)
   var name = req.body.name;
   var email = req.body.email;
   var username = req.body.username;
