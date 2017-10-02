@@ -17,7 +17,6 @@ router.get('/login', function(req, res, next) {
 });
 
 router.post('/register', upload.single('profileimage'), function(req, res, next) {
-  console.log(req.body.name)
   var name = req.body.name;
   var email = req.body.email;
   var username = req.body.username;
