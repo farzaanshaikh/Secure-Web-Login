@@ -103,8 +103,8 @@ router.post('/register', upload.single('profileimage'), function(req, res, next)
 
     req.flash('success', 'You have registered successfully!');
 
-    res.location('/');
-    res.redirect('/');
+    res.location('/users/login');
+    res.redirect('/users/login');
   }
 
 });
