@@ -23,7 +23,7 @@ the command promt as it is more like a linux terminal. You don't really need thi
 
 We will use express for the template. Here are the steps to install and run :
 
-- Open the directory in terminal where you want to install the app and use the following commands:
+- Open the directory in terminal where you want to install the app and use the following commands :
   - `npm install -g express`
   - `npm install -g express-generator`
   - `express`
