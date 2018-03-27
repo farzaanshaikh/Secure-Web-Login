@@ -1,7 +1,7 @@
 # Secure Web Login
 
 ### Introduction
-The purpose of this project is to learn about **Node.js**. In itself it isn't qualified to be call a project, however it makes use of a NoSql database (MongoDB)
+The purpose of this project is to learn about **Node.js**. In itself it isn't qualified to be called a project, however it makes use of a NoSql database (MongoDB)
 and some other very useful packages and is a great place to get started into a new
 development environment (especially for beginners), not to mention this can be directly used when in need of a ready-made efficient and scalable login for your project. [Passport](http://www.passportjs.org/) can also be used to create logins based on facebook, Google, twitter etc. However it has not been implemented in this project.
 
